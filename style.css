@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700');
+
+
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  background: #2C292F;
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+.price-card{
+  height: 100%;
+  background-color: #fff;
+  flex-basis: 30%;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+}
+
+
+.top{
+  text-align: center;
+  transform: translateY(-20px);
+  padding: 10px 0;
+  border-radius: 10px 10px 0 0;
+}
+.top h3{
+  color: #fff;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.price-card .basic{
+  background: #2ECC71;
+}
+.price-card .standard{
+  background: #222;
+  border-bottom: 1px solid INDIANRED;
+}
+.price-card .premium{
+  background: #F4D03F;
+}
+
+.standard p{
+  color: INDIANRED;
+  word-spacing: 2px;
+}
+.standard span{
+  color: #9f9f9f;
+}
+
+ ul{
+  padding: 0px;
+}
+ul li{
+  list-style: none;
+  text-align: center;
+  padding: 20px 0;;
+}
+
+
+
+
+button{
+  color: white;
+  border: none;
+  font-size: 12px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+
+.order-now-basic{
+  text-align: center;
+  padding: 30px 0;
+  border-bottom: 2px solid #2ECC71;
+}
+.btn-basic{
+  background-color: #2ECC71;
+}
+
+
+ .order-now-standard{
+  text-align: center;
+  padding: 30px 0;
+  border-bottom: 2px solid INDIANRED;
+}
+.btn-standard{
+  background-color: INDIANRED;
+}
+
+.order-now-premium{
+  text-align: center;
+  padding: 30px 0;
+  border-bottom: 2px solid #F4D03F;
+}
+.btn-premium{
+  background-color: #F4D03F;
+}
+
+
+
+@media (max-width:900px) {
+  .container{
+    flex-direction: column;
+  }
+}
